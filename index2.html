@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- to do application -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src = "script2.js" defer></script>
+</head>
+<body>
+    <!-- <div class="main">
+    <label id = "label" for="">jquery</label>
+    <br>
+    <input id = "input" type="text" placeholder="enter name" style="margin-top: 10px; margin-bottom: 10px;">
+    <br>
+    <button id = "button">submit</button> -->
+    <div class = "main">
+        <button id = "b1">color</button>
+        <button id = "b2">Bold</button>
+        <button id = "b3">bg-color</button>
+        <button id = "b4">reset</button>
+    </div>
+    <!-- </div> -->
+     <!-- <div style="margin-top: 10px;">
+         <select name="" id="choice" onchange="operation()">
+             <option value="one">one</option>
+             <option value="two">two</option>
+             <option value="three">three</option>
+             <option value="four">four</option>
+         </select>
+     </div> -->
+    <div class = "lists" style = "margin-top : 10px;">
+        <li id = "n1">one</li>
+        <li id = "n2">two</li>
+        <li id = "n3">three</li>
+        <li id = "n4">four</li>
+    </div>
+    <script>
+        $(() => {
+            $('#b1').on('click', () => {
+                $('#n1').css("background-color", "yellow");
+            });
+
+            $('#b2').on('click', () => {
+                $('#n2').css("font-weight", "bold");
+            });
+
+            $('#b3').on('click', () => {
+                $('#n3').css("color", "red");
+            });
+
+            $('#b4').on('click', () => {
+                $('#n1').removeAttr('style');
+                $('#n2').removeAttr('style');
+                $('#n3').removeAttr('style');
+            });
+        });
+    </script>
+</body>
+</html>

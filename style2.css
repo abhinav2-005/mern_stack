@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(246, 172, 119);
+}
+.body_div{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.main_div{
+    display: grid;
+    background-color:aqua;
+    margin-left: 33%;
+    margin-top: 9%;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.heading1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub_main_div{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+}
