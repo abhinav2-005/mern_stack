@@ -5,14 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>To-do list</title>
         <link rel="stylesheet" href="style2.css">
+        <script src="day3projectscript.js" defer></script>
     </head>
     <body>
         <div class="body_div">
             <div class="main_div">
                 <div class = "sub_main_div">
                     <label class="heading1">Add your Task</label>
-                    <input type="text" placeholder="Enter your task" style="border: none; border-radius: 10px; padding: 5px; height: 20px;">
+                    <input id = "new_task" class = "entry" type="text" placeholder="Enter your task" style="border: none; border-radius: 10px; padding: 5px; height: 20px;">
+                    <button id = "add" class="button">Add</button>
                 </div>
+            <div id = "tasks_div" class="tasks_div">
+                <label class="your_tasks">your tasks</label>
+            </div>
             </div>
         </div>
     </body>
